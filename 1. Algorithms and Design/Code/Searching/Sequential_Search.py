@@ -11,7 +11,9 @@ def main():
 	arr = [7, 19, 33, 57, 90, 100, 195, 299]
 	target = 33
 
-	print(Sequential_Search(arr, target))
+	pos = Sequential_Search(arr, target)
+
+print("Number 33 is found at array index", pos)
 
 
 main()
