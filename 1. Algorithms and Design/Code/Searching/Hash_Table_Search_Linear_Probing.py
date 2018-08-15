@@ -32,7 +32,7 @@ def AddItem(array, target):
 
 def Search(array, target):
 	original_pos = GetPosition(array, target)			# get hashing position
-	
+
 	if array[original_pos] == target:					# target found at original hashing position
 		return original_pos
 
@@ -54,7 +54,7 @@ def main():
 	hash_table = [None] * 11
 
 	add_items = ["a", "k", "g", "c", "d", "z", "n", "x"]
-	
+
 	for item in add_items:
 		if hash_table != -1:
 			hash_table = AddItem(hash_table, item)
@@ -62,8 +62,8 @@ def main():
 	print(hash_table)
 
 	pos = Search(hash_table, "d")
-	
+
 	print("Letter 'd' is found at array index", pos)
-		
+
 
 main()

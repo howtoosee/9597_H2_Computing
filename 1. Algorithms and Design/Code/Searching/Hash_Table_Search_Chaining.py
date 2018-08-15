@@ -35,7 +35,7 @@ def main():
 	hash_table = [ [] ] * 11
 
 	add_items = ["a", "k", "g", "c", "d", "z", "n", "x"]
-	
+
 	for item in add_items:
 			hash_table = AddItem(hash_table, item)
 
@@ -44,7 +44,7 @@ def main():
 
 
 	pos = Search(hash_table, "d")
-	
+
 	print("Letter 'd' is found at array index", pos)
 
 
