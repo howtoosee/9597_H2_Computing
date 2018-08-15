@@ -5,7 +5,7 @@
 
 
 def GetPosition(hash_table, value):
-	position = ord(value) % len(hash_table)				# get original position for given value
+	position = ord(value) % len(hash_table)				# get hash value
 
 	return position
 
@@ -19,7 +19,9 @@ def AddItem(array, target):
 		return array
 
 	pos = (original_pos + 1) % len(array)				# get new hashing position
+
 	while pos != original_pos:							# check for collision
+
 		if array[pos] == None:							# empty location found
 			array[pos] = target
 			return array
@@ -38,6 +40,7 @@ def Search(array, target):
 
 	pos = (original_pos + 1) % len(array)
 	while pos != original_pos:
+
 		if array[pos] == None:							# empty hashed position --> not found
 			return -1
 

@@ -5,26 +5,27 @@
 
 
 def GetPosition(hash_table, value):
-	position = ord(value) % len(hash_table)		# get original position for given value
+	position = ord(value) % len(hash_table)		# get hash value
 
 	return position
 
 
 def AddItem(array, target):
-	pos = GetPosition(array, target)
+	pos = GetPosition(array, target)			# get original position for given value
 
-	if array[pos] == []:
-		array[pos] = [target]
-	else:
-		array[pos].append(target)
+	if array[pos] == []:						# position is initially empty
+		array[pos] = [target]					# initialise first value
+
+	else:										# position contains some value
+		array[pos].append(target)				# append to chain
 
 	return array
 
 
 def Search(array, target):
-	pos = GetPosition(array, target)
+	pos = GetPosition(array, target)			# get original position for given value
 
-	if target in array[pos]:
+	if target in array[pos]:					# check if target is at position
 		return pos
 
 	else:
@@ -32,7 +33,7 @@ def Search(array, target):
 
 
 def main():
-	hash_table = [ [] ] * 11
+	hash_table = [ [] ] * 11					# initialise 2D array as hash table
 
 	add_items = ["a", "k", "g", "c", "d", "z", "n", "x"]
 
