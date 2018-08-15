@@ -1,16 +1,17 @@
 def Binary_Search_Recursive(array, target, low, high):
 
-	pivot = (low + high) // 2			# choose pivot to be in the middle
+	mid = (low + high) // 2			# choose pivot value to be in the middle
+	pivot = array[mid]
 
-	if array[pivot] == target:		# target found
-		return pivot					# return array index
+	if pivot == target:				# target found
+		return mid					# return array index
 
-	elif target < array[pivot]:		# target in lower subarray
-		return Binary_Search_Recursive(array, target, low, pivot - 1)	
+	elif target < pivot:			# target in lower subarray
+		return Binary_Search_Recursive(array, target, low, mid - 1)
 									# recursively call search for lower subarray
 
 	else:							# target in higher subarray
-		return Binary_Search_Recursive(array, target, pivot + 1, high)
+		return Binary_Search_Recursive(array, target, mid + 1, high)
 									# recursively call search for higher subarray
 
 	if low >= high:					# pointers cross --> target not found
