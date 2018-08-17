@@ -18,14 +18,14 @@ class tree:
 
 
 	def add_iterative(self, value):
-		if self.nextfree is 0:
+		if self.nextfree is 0:								# tree is full
 			print("Tree is full!")
 			return
 		else:
 			target = self.nextfree
 			self.tree[target].data = value
 
-			if self.root is None:
+			if self.root is None:							# tree is empty
 				self.root = target
 
 			else:
