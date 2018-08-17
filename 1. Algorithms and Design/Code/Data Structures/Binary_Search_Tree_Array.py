@@ -53,13 +53,17 @@ class tree:
 
 
 	def add_recursive(self, value, curr):
+		if root == None:
+
+
 		curr_node = self.tree[curr]
 
+		target = self.nextfree
 		if value < curr_node.data:
 			if curr_node.left == 0:
 				self.add_recursive(value, curr_node.left)
 			else:
-				target = self.nextfree
+
 				curr_node.left = target
 				self.tree[target].data = value
 				self.nextfree = self.tree[target].right
@@ -106,6 +110,10 @@ class tree:
 
 	def getroot(self):
 		return self.root
+
+
+	def getnextfree(self):
+		return self.nextfree
 
 
 def main():
