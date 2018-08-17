@@ -54,10 +54,9 @@ class tree:
 
 
 	def add_recursive(self, value, curr):
-		print(curr)
 		target = self.nextfree
 
-		if curr == 0:											# tree is empty
+		if self.root == 0:											# tree is empty
 			self.root = target
 			self.tree[target].data = value
 			self.nextfree = self.tree[target].right
