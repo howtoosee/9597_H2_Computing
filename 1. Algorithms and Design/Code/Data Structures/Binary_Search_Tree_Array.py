@@ -68,6 +68,8 @@ class tree:
 				self.add_recursive(value, curr_node.right)
 			else:
 				curr_node.right = self.nextfree
+				self.tree[self.nextfree].data = value
+				self.nextfree = self.tree[self.nextfree].left
 
 
 	def display(self):
