@@ -59,8 +59,9 @@ class tree:
 			self.tree[target].data = value
 			self.nextfree = self.tree[target].right
 			self.tree[target].right = 0
-			
+
 			return ""
+
 
 		curr_node = self.tree[curr]
 
