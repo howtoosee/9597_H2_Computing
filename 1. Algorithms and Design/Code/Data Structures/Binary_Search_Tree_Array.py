@@ -70,9 +70,9 @@ class tree:
 				self.add_recursive(value, curr_node.right)
 			else:
 				target = self.nextfree
-				curr_node.right = self.nextfree
-				self.tree[self.nextfree].data = value
-				self.nextfree = self.tree[self.nextfree].left
+				curr_node.right = target
+				self.tree[target].data = value
+				self.nextfree = self.tree[target].left
 
 
 	def display(self):
