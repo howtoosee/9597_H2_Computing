@@ -55,7 +55,6 @@ class tree:
 
 	def add_recursive(self, value, curr):
 		print(value, curr)
-		print(self.nextfree)
 		target = self.nextfree
 
 		if self.root == 0:										# tree is empty
