@@ -52,7 +52,11 @@ class tree:
 			self.tree[target].right = 0
 
 
-	def add_recursive(self, value, )
+	def add_recursive(self, value, curr):
+		curr_node = self.tree[curr]
+
+		if value < curr_node.data:
+
 
 
 	def display(self):
@@ -102,9 +106,9 @@ def main():
 
 
 	mytree2 = tree(10)
-
+	root = mytree2.getroot()
 	for value in value:
-		mytree2.add_recursive(value)
+		mytree2.add_recursive(value, root)
 	mytree2.display()
 	mytree.inorder()
 
