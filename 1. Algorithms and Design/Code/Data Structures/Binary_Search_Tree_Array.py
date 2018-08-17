@@ -144,6 +144,6 @@ def main():
 		for value in values:
 			mytree2.add_recursive(value, root)
 		mytree2.display()
-		mytree.inorder()
+		mytree2.inorder()
 
 main()
