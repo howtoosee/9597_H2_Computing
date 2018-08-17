@@ -98,7 +98,7 @@ class tree:
 
 
 	def inorder(self):
-		if self.root is 0:
+		if self.root is None:
 			print("Tree is empty!")
 		else:
 			print("Displaying in order:")
