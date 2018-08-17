@@ -56,7 +56,16 @@ class tree:
 		curr_node = self.tree[curr]
 
 		if value < curr_node.data:
+			if curr_node.left == 0:
+				self.add_recursive(value, curr_node.left)
+			else:
+				curr_node.left = self.nextfree
 
+		else:
+			if curr_node.right == 0:
+				self.add_recursive(value, curr_node.right)
+			else:
+				curr_node.right = self.nextfree
 
 
 	def display(self):
