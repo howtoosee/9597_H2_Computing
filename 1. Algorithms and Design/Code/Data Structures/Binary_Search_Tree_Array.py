@@ -66,7 +66,8 @@ class tree:
 
 			return ""
 
-		else:													# tree is not empty
+		else:
+			print(curr)												# tree is not empty
 			curr_node = self.tree[curr]							# assign pointer
 
 			if value < curr_node.data:							# compare values
