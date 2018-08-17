@@ -17,7 +17,7 @@ class tree:
 		self.tree[self.max] = node("", 0, 0)
 
 
-	def add(self, value):
+	def add_iterative(self, value):
 		if self.nextfree is 0:
 			print("Tree is full!")
 			return
@@ -35,7 +35,7 @@ class tree:
 
 				while curr is not 0:
 					prev = curr
-					
+
 					if value < self.tree[curr].data:
 						last = "L"
 						curr = self.tree[curr].left
@@ -50,6 +50,9 @@ class tree:
 
 			self.nextfree = self.tree[target].right
 			self.tree[target].right = 0
+
+
+	def add_recursive(self, value, )
 
 
 	def display(self):
@@ -80,15 +83,25 @@ class tree:
 			self.traverseinorder(self.tree[root].right)
 
 
+	def getroot(self):
+		return self.root
+
+
 def main():
-	mytree = tree(10)
 
 	values = ["x", "m", "j", "o", "k"]
+	
+	mytree = tree(10)
+
+
 
 	for value in values:
 		mytree.add(value)
 
 	mytree.display()
 	mytree.inorder()
+
+
+	mytree2 = tree(10)
 
 main()
