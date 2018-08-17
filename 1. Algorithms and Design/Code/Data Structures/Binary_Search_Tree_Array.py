@@ -49,8 +49,8 @@ class tree:
 				else:
 					self.tree[prev].right = target
 
-			self.nextfree = self.tree[target].right
-			self.tree[target].right = 0
+			self.nextfree = self.tree[target].right			# update next free
+			self.tree[target].right = 0						# update curr node's right ptr
 
 
 	def add_recursive(self, value, curr):
