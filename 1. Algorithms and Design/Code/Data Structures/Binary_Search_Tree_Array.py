@@ -54,6 +54,7 @@ class tree:
 
 
 	def add_recursive(self, value, curr):
+		print(curr)
 		target = self.nextfree
 
 		if curr == 0:											# tree is empty
@@ -142,7 +143,6 @@ def main():
 	mytree2 = tree(10)
 	root = mytree2.getroot()
 	nextfree = mytree2.getnextfree()
-	mytree2.display()
 	if nextfree == 0:
 		print("tree is full")
 	else:
