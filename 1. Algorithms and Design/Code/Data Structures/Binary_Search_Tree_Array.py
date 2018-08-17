@@ -73,7 +73,7 @@ class tree:
 				curr_node.left = target
 				self.tree[target].data = value
 				self.nextfree = self.tree[target].right
-				self.tree[target].right = 0
+				#self.tree[target].right = 0
 
 		else:												# mvoes right
 			if curr_node.right == 0:						# curr_node.right is empty
@@ -83,7 +83,7 @@ class tree:
 				curr_node.right = target
 				self.tree[target].data = value
 				self.nextfree = self.tree[target].left
-				self.tree[target].right = 0
+				#self.tree[target].right = 0
 
 
 	def display(self):
