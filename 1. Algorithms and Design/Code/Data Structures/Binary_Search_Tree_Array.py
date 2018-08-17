@@ -31,10 +31,11 @@ class tree:
 			else:
 				curr = self.root
 				prev = curr
-
+				last = ""
+				
 				while curr is not 0:
 					prev = curr
-					last = ""
+
 
 					if value < self.tree[curr].data:
 						last = "L"
