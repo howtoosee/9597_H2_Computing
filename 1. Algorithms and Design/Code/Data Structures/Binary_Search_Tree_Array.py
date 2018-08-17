@@ -75,7 +75,7 @@ class tree:
 					curr.left = target						# insert
 					self.tree[target].data = value
 					self.nextfree = self.tree[target].right
-					#self.tree[target].right = 0
+					self.tree[target].right = 0
 
 			else:											# compare values
 				if curr.right != 0:							# curr.right is not empty
@@ -85,7 +85,7 @@ class tree:
 					curr.right = target						# insert
 					self.tree[target].data = value
 					self.nextfree = self.tree[target].left
-					#self.tree[target].right = 0
+					self.tree[target].right = 0
 
 
 	def display(self):
