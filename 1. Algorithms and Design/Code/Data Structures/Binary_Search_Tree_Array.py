@@ -62,12 +62,10 @@ class tree:
 			self.tree[target].data = value
 			self.nextfree = self.tree[target].right
 			self.tree[target].right = 0
-			self.display()
 
 			return ""
 
-		else:
-			print(curr)												# tree is not empty
+		else:												# tree is not empty
 			curr_node = self.tree[curr]							# assign pointer
 
 			if value < curr_node.data:							# compare values
