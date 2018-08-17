@@ -132,9 +132,13 @@ def main():
 
 	mytree2 = tree(10)
 	root = mytree2.getroot()
-	for value in values:
-		mytree2.add_recursive(value, root)
-	mytree2.display()
-	mytree.inorder()
+	nextfree = mytree2.getnextfree()
+	if nextfree == 0:
+		print("tree is full")
+	else:
+		for value in values:
+			mytree2.add_recursive(value, root)
+		mytree2.display()
+		mytree.inorder()
 
 main()
