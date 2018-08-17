@@ -140,7 +140,6 @@ def main():
 
 
 	mytree2 = tree(10)
-
 	nextfree = mytree2.getnextfree()
 	if nextfree == 0:
 		print("tree is full")
