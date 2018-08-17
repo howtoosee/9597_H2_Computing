@@ -60,7 +60,7 @@ class tree:
 				self.add_recursive(value, curr_node.left)
 			else:
 				target = self.nextfree
-				curr_node.left = self.nextfree
+				curr_node.left = target
 				self.tree[target].data = value
 				self.nextfree = self.tree[target].right
 				self.tree[]
@@ -69,6 +69,7 @@ class tree:
 			if curr_node.right == 0:
 				self.add_recursive(value, curr_node.right)
 			else:
+				target = self.nextfree
 				curr_node.right = self.nextfree
 				self.tree[self.nextfree].data = value
 				self.nextfree = self.tree[self.nextfree].left
