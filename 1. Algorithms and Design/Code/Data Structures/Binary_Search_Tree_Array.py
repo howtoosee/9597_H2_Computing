@@ -71,8 +71,8 @@ class tree:
 				if curr_node.left != 0:							# curr_node.left is not empty
 					self.add_recursive(value, curr_node.left)	# moves left
 
-				else:
-					curr_node.left = target
+				else:											# curr_node.left is empty
+					curr_node.left = target						# insert
 					self.tree[target].data = value
 					self.nextfree = self.tree[target].right
 					#self.tree[target].right = 0
