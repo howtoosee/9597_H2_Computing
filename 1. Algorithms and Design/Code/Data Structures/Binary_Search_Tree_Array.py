@@ -91,12 +91,14 @@ def main():
 
 	values = ["x", "m", "j", "o", "k"]
 
+	'''
 	mytree = tree(10)
 
 	for value in values:
 		mytree.add(value)
 	mytree.display()
 	mytree.inorder()
+	'''
 
 
 	mytree2 = tree(10)
