@@ -37,14 +37,14 @@ class tree:
 				while curr is not 0:
 					prev = curr
 
-					if value < self.tree[curr].data:
+					if value < self.tree[curr].data:		# move left
 						last = "L"
 						curr = self.tree[curr].left
-					else:
+					else:									# move right
 						last = "R"
 						curr = self.tree[curr].right
 
-				if last is "L":
+				if last is "L":								# change pointer of prev node
 					self.tree[prev].left = target
 				else:
 					self.tree[prev].right = target
