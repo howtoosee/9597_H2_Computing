@@ -25,10 +25,10 @@ class tree:
 			target = self.nextfree
 			self.tree[target].data = value
 
-			if self.root is None:							# tree is empty
+			if self.root is 0:								# tree is empty
 				self.root = target
 
-			else:
+			else:											# tree is not empty
 				curr = self.root
 				prev = curr
 				last = ""
