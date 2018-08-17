@@ -95,7 +95,6 @@ def main():
 
 	for value in values:
 		mytree.add(value)
-
 	mytree.display()
 	mytree.inorder()
 
