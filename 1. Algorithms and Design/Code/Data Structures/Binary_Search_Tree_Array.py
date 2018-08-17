@@ -56,6 +56,7 @@ class tree:
 		target = self.nextfree
 
 		if curr == 0:									# tree is empty
+			self.root = target
 			self.tree[target].data = value
 			self.nextfree = self.tree[target].right
 			self.tree[target].right = 0
