@@ -8,7 +8,7 @@ class node:
 class tree:
 	def __init__(self, MAX):
 		self.max = MAX
-		self.root = None
+		self.root = 0
 		self.nextfree = 1
 		self.tree = [None] * (self.max + 1)
 
@@ -98,7 +98,7 @@ class tree:
 
 
 	def inorder(self):
-		if self.root is None:
+		if self.root is 0:
 			print("Tree is empty!")
 		else:
 			print("Displaying in order:")
@@ -107,7 +107,7 @@ class tree:
 
 
 	def traverseinorder(self, root):
-		if root is not None:
+		if root is not 0:
 			self.traverseinorder(self.tree[root].left)
 			print(self.tree[root].data, end = " ")
 			self.traverseinorder(self.tree[root].right)
