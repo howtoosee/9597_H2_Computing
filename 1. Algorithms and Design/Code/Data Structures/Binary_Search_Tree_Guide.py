@@ -29,7 +29,7 @@ class BSTree:   # binary serach tree
 		elif tree.value == value:
 			print("Duplicate value already exists in tree!")
 			return ""
-			
+
 		elif value < tree.value:
 			node = self.insert_rec(tree.left, value)
 			tree.left = node

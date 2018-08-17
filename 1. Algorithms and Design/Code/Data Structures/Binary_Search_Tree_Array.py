@@ -32,11 +32,10 @@ class tree:
 				curr = self.root
 				prev = curr
 				last = ""
-				
+
 				while curr is not 0:
 					prev = curr
-
-
+					
 					if value < self.tree[curr].data:
 						last = "L"
 						curr = self.tree[curr].left
