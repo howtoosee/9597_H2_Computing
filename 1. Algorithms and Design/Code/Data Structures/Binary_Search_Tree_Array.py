@@ -72,7 +72,7 @@ class tree:
 					self.add_recursive(value, curr.left)	# moves left
 
 				else:										# curr.left is empty
-					self.tree[curr].right = target						# insert
+					self.tree[curr].right = target			# insert
 					self.tree[target].data = value
 					self.nextfree = self.tree[target].right
 					self.tree[target].right = 0
