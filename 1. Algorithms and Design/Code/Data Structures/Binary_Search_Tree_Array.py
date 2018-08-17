@@ -65,14 +65,14 @@ class tree:
 			return ""
 
 		else:												# tree is not empty
-			curr = self.tree[curr]							# assign pointer
+			#curr = self.tree[curr]							# assign pointer
 
 			if value < curr.data:							# compare values
 				if curr.left != 0:							# curr.left is not empty
 					self.add_recursive(value, curr.left)	# moves left
 
 				else:										# curr.left is empty
-					curr.left = target						# insert
+					self.tree[curr].right = target						# insert
 					self.tree[target].data = value
 					self.nextfree = self.tree[target].right
 					self.tree[target].right = 0
@@ -82,7 +82,7 @@ class tree:
 					self.add_recursive(value, curr.right)	# moves right
 
 				else:										# curr.right is empty
-					curr.right = target						# insert
+					self.tree[curr].right = target						# insert
 					self.tree[target].data = value
 					self.nextfree = self.tree[target].left
 					self.tree[target].right = 0
