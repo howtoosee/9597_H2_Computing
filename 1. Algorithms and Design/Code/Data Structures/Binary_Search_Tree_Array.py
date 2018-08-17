@@ -80,7 +80,6 @@ class tree:
 				if curr_node.right == 0:						# curr_node.right is empty
 					self.add_recursive(value, curr_node.right)	# insert recursively
 				else:
-
 					curr_node.right = target
 					self.tree[target].data = value
 					self.nextfree = self.tree[target].left
