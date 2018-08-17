@@ -90,10 +90,8 @@ class tree:
 def main():
 
 	values = ["x", "m", "j", "o", "k"]
-	
+
 	mytree = tree(10)
-
-
 
 	for value in values:
 		mytree.add(value)
@@ -103,5 +101,10 @@ def main():
 
 
 	mytree2 = tree(10)
+
+	for value in value:
+		mytree2.add_recursive(value)
+	mytree2.display()
+	mytree.inorder()
 
 main()
