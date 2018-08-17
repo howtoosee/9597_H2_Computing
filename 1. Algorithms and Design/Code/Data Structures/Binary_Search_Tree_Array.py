@@ -84,7 +84,7 @@ class tree:
 				else:											# curr_node.right is empty
 					curr_node.right = target					# insert
 					self.tree[target].data = value
-					self.nextfree = self.tree[target].left
+					self.nextfree = self.tree[target].right
 					self.tree[target].right = 0
 
 
