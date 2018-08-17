@@ -107,7 +107,7 @@ class tree:
 
 
 	def traverseinorder(self, root):
-		if root is not 0:
+		if root is not None:
 			self.traverseinorder(self.tree[root].left)
 			print(self.tree[root].data, end = " ")
 			self.traverseinorder(self.tree[root].right)
