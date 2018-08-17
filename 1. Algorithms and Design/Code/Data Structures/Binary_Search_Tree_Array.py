@@ -55,7 +55,7 @@ class tree:
 	def add_recursive(self, value, curr):
 		target = self.nextfree
 
-		if root == None:								# tree is empty
+		if root == None:									# tree is empty
 			self.tree[target].data = value
 			self.nextfree = self.tree[target].right
 			self.tree[target].right = 0
@@ -63,21 +63,20 @@ class tree:
 			return ""
 
 		# tree is not empty
-		curr_node = self.tree[curr]
+		curr_node = self.tree[curr]							# assign pointer
 
-		if value < curr_node.data:
-			if curr_node.left == 0:
-				self.add_recursive(value, curr_node.left)
+		if value < curr_node.data:							# moves left
+			if curr_node.left == 0:							# curr_node.left is empty
+				self.add_recursive(value, curr_node.left)	# insert recursively
 			else:
-
 				curr_node.left = target
 				self.tree[target].data = value
 				self.nextfree = self.tree[target].right
 				self.tree[target].right = 0
 
-		else:
-			if curr_node.right == 0:
-				self.add_recursive(value, curr_node.right)
+		else:												# mvoes right
+			if curr_node.right == 0:						# curr_node.right is empty
+				self.add_recursive(value, curr_node.right)	# insert recursively
 			else:
 
 				curr_node.right = target
