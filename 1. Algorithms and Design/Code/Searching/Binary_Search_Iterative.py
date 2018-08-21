@@ -22,7 +22,7 @@ def main():
 	arr = [7, 19, 33, 57, 90, 100, 195, 299]
 	target = 33
 
-	pos = Binary_Search_Iterative(arr, target))
+	pos = Binary_Search_Iterative(arr, target)
 
 	print("Number 33 is found at array index", pos)
 
