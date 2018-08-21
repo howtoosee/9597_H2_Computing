@@ -24,7 +24,9 @@ def main():
 	target = 33
 
 	pos = Binary_Search_Iterative(arr, target)
-
-	print("Number 33 is found at array index", pos)
+	if pos == -1:
+		print("Target not found!")
+	else:
+		print("Number 33 is found at array index", pos)
 
 main()
