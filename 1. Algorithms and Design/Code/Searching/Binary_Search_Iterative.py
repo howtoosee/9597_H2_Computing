@@ -6,17 +6,17 @@ def Binary_Search_Iterative(array, target):
 		pivot = array[mid]
 		print(low, high, mid, pivot)
 
-		if pivot == target:				# target found
-			return mid					# return array index
+		if pivot == target:			# target found
+			return mid			# return array index
 
 		elif target < pivot:			# target in lower subarray
-			high = mid - 1				# adjust pointer
+			high = mid - 1			# adjust pointer
 
-		else:							# target in higher subarray
-			low = mid + 1				# adjust pointer
+		else:					# target in higher subarray
+			low = mid + 1			# adjust pointer
 
-	if low > high:						# pointers cross --> target found
-		return -1
+	if low > high:					# pointers cross -- target not found
+		return -1				# return dummy value
 
 
 def main():
