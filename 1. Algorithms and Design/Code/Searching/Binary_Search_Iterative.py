@@ -6,6 +6,7 @@ def Binary_Search_Iterative(array, target):
 		pivot = array[mid]
 
 		if pivot == target:				# target found
+			print(pivot)
 			return pivot				# return array index
 
 		elif target < pivot:			# target in lower subarray
