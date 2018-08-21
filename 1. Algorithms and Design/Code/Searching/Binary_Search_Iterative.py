@@ -7,8 +7,7 @@ def Binary_Search_Iterative(array, target):
 		print(low, high, mid, pivot)
 
 		if pivot == target:				# target found
-			print(pivot)
-			return pivot				# return array index
+			return mid				# return array index
 
 		elif target < pivot:			# target in lower subarray
 			high = mid - 1				# adjust pointer
