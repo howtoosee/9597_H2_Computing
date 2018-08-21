@@ -1,9 +1,9 @@
 def Binary_Search_Iterative(array, target):
 	low, high =  0, len(array)-1
-	print(mid)
 
 	while low < high:
 		mid = (low + high) // 2			# choose pivot to be in the middle
+		print(mid)
 		pivot = array[mid]
 
 		if pivot == target:				# target found
