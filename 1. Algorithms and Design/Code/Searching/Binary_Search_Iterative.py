@@ -9,10 +9,10 @@ def Binary_Search_Iterative(array, target):
 			return pivot				# return array index
 
 		elif target < pivot:			# target in lower subarray
-			high = pivot - 1			# adjust pointer
+			high = mid - 1				# adjust pointer
 
 		else:							# target in higher subarray
-			low = pivot + 1				# adjust pointer
+			low = mid + 1				# adjust pointer
 
 	if low >= high:						# pointers cross --> target found
 		return -1
