@@ -14,7 +14,7 @@ def Binary_Search_Recursive(array, target, low, high):
 		return Binary_Search_Recursive(array, target, mid + 1, high)
 									# recursively call search for higher subarray
 
-	if low >= high:					# pointers cross --> target not found
+	if low > high:					# pointers cross --> target not found
 		return -1
 
 
