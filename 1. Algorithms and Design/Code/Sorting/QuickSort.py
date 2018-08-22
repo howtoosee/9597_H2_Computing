@@ -1,19 +1,21 @@
 def QuickSort(array):
-	if len(array) <= 1:
+	if len(array) <= 1:				# array is sorted (0 or 1 element)
 		return array
 
 	else:
-		pivot = array.pop(0)		# can be any valid value
-		less = []
-		greater = []
+		mid = len(arr) // 2
+		pivot = array.pop(mid)		# can be any valid value
+		lower, higher = [], []
 
-		for item in array:
-			if item < pivot:
-				less.append(item)
+		for element in array:		# partition into lower and higher arrays
+			if element < pivot:
+				lower.append(item)
+
 			else:
-				greater.append(item)
+				higher.append(item)
 
-	return QuickSort(less) + [pivot] + QuickSort(greater)
+		# calls recurive function
+		return QuickSort(lower) + [pivot] + QuickSort(higher)
 
 
 def main():
