@@ -127,9 +127,10 @@ class tree:
 def main():
 
 	values = ["x", "m", "j", "o", "k"]
+	max = 10
 
 	'''
-	mytree = tree(10)
+	mytree = tree(max)
 
 	for value in values:
 		mytree.add(value)
@@ -138,7 +139,7 @@ def main():
 	'''
 
 
-	mytree2 = tree(10)
+	mytree2 = tree(max)
 	nextfree = mytree2.getnextfree()
 	if nextfree == 0:
 		print("tree is full")

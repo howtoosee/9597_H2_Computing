@@ -76,7 +76,8 @@ class tree:
 
 
 def main():
-	mytree = tree(10)
+	max = 10
+	mytree = tree(max)
 
 	values = ["x", "m", "j", "o", "k"]
 
