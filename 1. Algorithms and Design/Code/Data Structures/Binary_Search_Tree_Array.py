@@ -21,9 +21,13 @@ class tree:
 		if self.nextfree is 0:								# tree is full
 			print("Tree is full!")
 			return
+
 		else:
 			target = self.nextfree
 			self.tree[target].data = value
+
+			self.nextfree = self.tree[target].right			# update next free
+			self.tree[target].right = 0						# update curr node's right ptr
 
 			if self.root is 0:								# tree is empty
 				self.root = target
@@ -49,8 +53,6 @@ class tree:
 				else:
 					self.tree[prev].right = target
 
-			self.nextfree = self.tree[target].right			# update next free
-			self.tree[target].right = 0						# update curr node's right ptr
 
 
 	def add_recursive(self, value, curr):
