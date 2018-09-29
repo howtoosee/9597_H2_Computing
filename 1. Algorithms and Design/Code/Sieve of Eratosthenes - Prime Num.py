@@ -1,6 +1,7 @@
 #find all prime numbers from 0 - num
 
 from math import sqrt
+
 num = int(input("enter number: "))
 set = [True for i in range(num+1)]
 
