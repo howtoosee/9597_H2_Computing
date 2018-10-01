@@ -20,7 +20,7 @@ class tree:
 	def add_iterative(self, value):
 		if self.nextfree is 0:								# tree is full
 			print("Tree is full!")
-			return
+			return ""
 
 		else:
 			target = self.nextfree
@@ -93,7 +93,7 @@ class tree:
 	def display(self):
 		print("Root:", self.root)
 		print("Next free:", self.nextfree)
-		
+
 		print("{:<10}{:<10}{:<10}{:<10}".format("Index", "Left", "Data", "Right"))
 		for i in range(1, self.max + 1):
 			left = self.tree[i].left
