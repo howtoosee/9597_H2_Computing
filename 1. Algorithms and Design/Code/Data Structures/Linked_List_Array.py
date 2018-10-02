@@ -43,9 +43,8 @@ class linkedlist:
 					self.root = target
 
 				else:
-					temp = self.linked[prev].next
 					self.linked[prev].next = target
-					self.linked[target].next = temp
+					self.linked[target].next = curr
 
 
 	def display(self):
@@ -69,7 +68,7 @@ class linkedlist:
 		while curr is not 0:
 			print(self.linked[curr].data, end = " ")
 			curr = self.linked[curr].next
-			
+
 		print()
 
 def main():
