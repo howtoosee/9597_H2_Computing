@@ -35,6 +35,12 @@
 		1. ASCII code: ord(), chr()
 		2. Unicode
 		2. Binary, octal, hexadecimal
+	1. Data structures and associated operations (insert, delete, search)
+		1. Array: append, pop
+		2. Dictionary: mapping values
+		3. Stack: push, pop
+		4. Queue: enqueue, dequeue
+		5. List: add, delete
 
 ### Module 2 Interface and Interactions
 
