@@ -18,9 +18,9 @@ __Table of Contents__
 			- [2.2 Interfacing Computers (Networking)](#22-interfacing-computers-networking)
 			- [2.3 Interacting with data (Relational database)](#23-interacting-with-data-relational-database)
 		- [Module 3: Systems Engineering](#module-3-systems-engineering)
-		- [3.1 System Development Cycle (SDC)](#31-system-development-cycle-sdc)
-		- [3.2 Project Management Techniques](#32-project-management-techniques)
-		- [3.3 Network Applications](#33-network-applications)
+			- [3.1 System Development Cycle (SDC)](#31-system-development-cycle-sdc)
+			- [3.2 Project Management Techniques](#32-project-management-techniques)
+			- [3.3 Network Applications](#33-network-applications)
 
 <!-- /TOC -->
 
@@ -185,7 +185,7 @@ __Table of Contents__
 ### Module 3: Systems Engineering
 
 
-### 3.1 System Development Cycle (SDC)
+#### 3.1 System Development Cycle (SDC)
 1. Data and processes in software system / applications
     1. Business systems
     2. Information systems
@@ -208,7 +208,7 @@ __Table of Contents__
     6. Beta testing
 
 
-### 3.2 Project Management Techniques
+#### 3.2 Project Management Techniques
 1. Purpose of project proposal
 2. Project management
     1. PERT chart and critial path analysis
@@ -216,7 +216,7 @@ __Table of Contents__
 3. Importance of team work and roles of team members on a project
 
 
-### 3.3 Network Applications
+#### 3.3 Network Applications
 1. Methods for creating network app
     1. Client side scripting
     2. Server side scripting
