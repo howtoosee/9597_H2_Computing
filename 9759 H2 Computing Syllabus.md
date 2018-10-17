@@ -1,18 +1,94 @@
-# 9759 H2 Computing Paper 2
+# 9759 H2 Computing Paper
+
+
+
+## Paper 1 Format
+* Duration: 3 hours 15 min
+* Total Marks: 100
+* Weighting: 35%
+* Number of questions: 4
 
 
 ## Paper 2 Format
-1. Duration: 3 hours
-2. Total Marks: 100
-3. Weighting: 65%
-4. Number of questions: 6
+* Duration: 3 hours
+* Total Marks: 100
+* Weighting: 65%
+* Number of questions: 6
 
 
 
-## Module 2 Interface and Interactions
+## Content
 
 
-### 2.1 Interacting with Computers (User Interface)
+
+### Module 1 Algorithms and Design
+
+
+#### 1.1 Fudamental Algorithms
+1. Search
+	1. Linear / sequential
+	2. Binary search (iterative / recursive)
+	3. Hash table search
+2. Sorting
+	1. Bubble sort (normal and improved)
+	2. Insertion sort
+	3. Quick sort
+3. Modulo operations and weighted modulo
+4. Binary search tree
+	1. Building: iterative / recursive
+	2. Sort: iterative / recursive
+	3. Search: iterative / recursive
+	4. Traversal: recursive (pre-order, in-order, post-order)
+
+
+#### 1.2 Abstraction
+1. Data representation
+	1. ASCII code: ord(), chr()
+	2. Unicode
+	2. Binary, octal, hexadecimal
+2. Data structures and associated operations (insert, delete, search)
+	1. Array: append, pop
+	2. Dictionary: mapping values
+	3. Stack: push, pop
+	4. Queue: enqueue, dequeue
+	5. List: add, delete
+
+
+#### 1.3 Modularity
+1. Types of programme errors
+2. Test cases
+	1. Normal
+	2. Invalid
+	3. Errorneous
+	4. Boundary
+3. Data validation
+	1. Range
+	2. Length
+	3. Format
+	4. Data type
+4. Programme Design
+	1. Modular design
+	2. Top-down approach
+5. Use of meaningful variable names
+
+
+#### 1.4 Programming
+1. I/O operations
+2. Serial / sequential text files
+	1. Opening / closing files
+	2. Reading / writing files
+	3. Finding locations: seek(), tell()
+3. Classes and objects
+4. Encapsulation (not allowing for access to class data from external methods and functions)
+5. Inheritance: calling super().__init__()
+6. Polymorphism
+
+
+
+### Module 2 Interface and Interactions
+
+
+#### 2.1 Interacting with Computers (User Interface)
 1. Types of user interfaces
     1. Command line
     2. Menu
@@ -37,7 +113,7 @@
     3. Economic issues
 
 
-### 2.2 Interfacing Computers (Networking)
+#### 2. 2 Interfacing Computers (Networking)
 1. Types of networks and examples of them
     1. Local area network
     2. Wide area network
@@ -73,7 +149,7 @@
     2. Checksums
 
 
-### 2.3 Interacting with data (Relational database)
+#### 2. 3 Interacting with data (Relational database)
 1. Attributes of database
     1. Tables
     2. Records
@@ -85,10 +161,10 @@
 
 
 
-## Module 3: Systems Engineering
+### Module 3: Systems Engineering
 
 
-### 3.1 System Development Cycle (SDC)
+### 3. 1 System Development Cycle (SDC)
 1. Data and processes in software system / applications
     1. Business systems
     2. Information systems
@@ -111,7 +187,7 @@
     6. Beta testing
 
 
-### 3.2 Project Management Techniques
+### 3. 2 Project Management Techniques
 1. Purpose of project proposal
 2. Project management
     1. PERT chart and critial path analysis
@@ -119,7 +195,7 @@
 3. Importance of team work and roles of team members on a project
 
 
-### 3.3 Network Applications
+### 3. 3 Network Applications
 1. Methods for creating network app
     1. Client side scripting
     2. Server side scripting
