@@ -1,6 +1,26 @@
 # 9759 H2 Computing Paper
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [9759 H2 Computing Paper](#9759-h2-computing-paper)
+	- [Paper 1 Format](#paper-1-format)
+	- [Paper 2 Format](#paper-2-format)
+	- [Contents](#contents)
+		- [Module 1: Algorithms and Design](#module-1-algorithms-and-design)
+			- [1.1 Fudamental Algorithms](#11-fudamental-algorithms)
+			- [1.2 Abstraction](#12-abstraction)
+			- [1.3 Modularity](#13-modularity)
+			- [1.4 Programming](#14-programming)
+		- [Module 2: Interface and Interactions](#module-2-interface-and-interactions)
+			- [2.1 Interacting with Computers (User Interface)](#21-interacting-with-computers-user-interface)
+			- [2.2 Interfacing Computers (Networking)](#22-interfacing-computers-networking)
+			- [2.3 Interacting with data (Relational database)](#23-interacting-with-data-relational-database)
+		- [Module 3: Systems Engineering](#module-3-systems-engineering)
+		- [3.1 System Development Cycle (SDC)](#31-system-development-cycle-sdc)
+		- [3.2 Project Management Techniques](#32-project-management-techniques)
+		- [3.3 Network Applications](#33-network-applications)
+
+<!-- /TOC -->
 
 
 ## Paper 1 Format
