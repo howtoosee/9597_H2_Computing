@@ -1,13 +1,11 @@
 # 9759 H2 Computing Paper
 
 
-
 ## Paper 1 Format
 1. Duration: 3 hours 15 min
 2. Total Marks: 100
 3. Weighting: 35%
 4. Number of questions: 4
-
 
 
 ## Paper 2 Format
