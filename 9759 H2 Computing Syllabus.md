@@ -109,7 +109,7 @@ __Table of Contents__
 4. Encapsulation (not allowing for access to class data from external methods and functions)
 5. Inheritance: calling super().__init__()
 6. Polymorphism
-----------
+
 
 
 ### Module 2: Interface and Interactions
@@ -185,7 +185,7 @@ __Table of Contents__
 2. Entity-Relationship diagrams
 3. Data redundance and data dependency
 4. Privacy and integrity of data
-----------
+
 
 
 ### Module 3: Systems Engineering
