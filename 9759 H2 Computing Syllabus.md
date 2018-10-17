@@ -2,10 +2,10 @@
 
 
 ## Paper 2 Format
-*Duration: 3 hours
-*Total Marks: 100
-*Weighting: 65%
-*Number of questions: 6
+1. Duration: 3 hours
+2. Total Marks: 100
+3. Weighting: 65%
+4. Number of questions: 6
 
 
 
