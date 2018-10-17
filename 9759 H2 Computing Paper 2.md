@@ -15,24 +15,24 @@
 ## Content
 
 ### Module 1 Algorithms and Design
-1.  Fudamental Algorithms
-	1. Search
-		1. Linear / sequential
-		2. Binary search (iterative / recursive)
-		3. Hash table search
+1.Fudamental Algorithms
+	1.Search
+		1.Linear / sequential
+		2.Binary search (iterative / recursive)
+		3.Hash table search
 
 ### Module 2 Interface and Interactions
 
 
 #### 2.1 Interacting with Computers (User Interface)
-1.  Types of user interfaces
-    1.  Command line
-    2.  Menu
-    3.  Form-based
-    4.  Graphical
-2.  Specifications of appropriate interface
-3.  Design considerations (8 Golden Rules)
-4.  Interaction techniques / input methods
+1.Types of user interfaces
+    1.Command line
+    2.Menu
+    3.Form-based
+    4.Graphical
+2.Specifications of appropriate interface
+3.Design considerations (8 Golden Rules)
+4.Interaction techniques / input methods
     1.  Mouse
     2.  Keyboard
     3.  Voice
