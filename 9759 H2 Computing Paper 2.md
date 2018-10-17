@@ -23,65 +23,73 @@
 
 
 ### Module 1 Algorithms and Design
-1. Fudamental Algorithms
-	1. Search
-		1. Linear / sequential
-		2. Binary search (iterative / recursive)
-		3. Hash table search
-	2. Sorting
-		1. Bubble sort (normal and improved)
-		2. Insertion sort
-		3. Quick sort
-	3. Modulo operations and weighted modulo
-	4. Binary search tree
-		1. Building: iterative / recursive
-		2. Sort: iterative / recursive
-		3. Search: iterative / recursive
-		4. Traversal: recursive (pre-order, in-order, post-order)
-2. Abstraction
-	1. Data representation
-		1. ASCII code: ord(), chr()
-		2. Unicode
-		2. Binary, octal, hexadecimal
-	2. Data structures and associated operations (insert, delete, search)
-		1. Array: append, pop
-		2. Dictionary: mapping values
-		3. Stack: push, pop
-		4. Queue: enqueue, dequeue
-		5. List: add, delete
-3. Modularity
-	1. Types of programme errors
-	2. Test cases
-		1. Normal
-		2. Invalid
-		3. Errorneous
-		4. Boundary
-	3. Data validation
-		1. Range
-		2. Length
-		3. Format
-		4. Data type
-	4. Programme Design
-		1. Modular design
-		2. Top-down approach
-	5. Use of meaningful variable names
-4. Programming
-	1. I/O operations
-	2. Serial / sequential text files
-		1. Opening / closing files
-		2. Reading / writing files
-		3. Finding locations: seek(), tell()
-	3. Classes and objects
-	4. Encapsulation (not allowing for access to class data from external methods and functions)
-	5. Inheritance: calling super().__init__()
-	6. Polymorphism
+
+
+#### 1.1 Fudamental Algorithms
+1. Search
+	1. Linear / sequential
+	2. Binary search (iterative / recursive)
+	3. Hash table search
+2. Sorting
+	1. Bubble sort (normal and improved)
+	2. Insertion sort
+	3. Quick sort
+3. Modulo operations and weighted modulo
+4. Binary search tree
+	1. Building: iterative / recursive
+	2. Sort: iterative / recursive
+	3. Search: iterative / recursive
+	4. Traversal: recursive (pre-order, in-order, post-order)
+
+
+#### 1.2 Abstraction
+1. Data representation
+	1. ASCII code: ord(), chr()
+	2. Unicode
+	2. Binary, octal, hexadecimal
+2. Data structures and associated operations (insert, delete, search)
+	1. Array: append, pop
+	2. Dictionary: mapping values
+	3. Stack: push, pop
+	4. Queue: enqueue, dequeue
+	5. List: add, delete
+
+
+#### 1.3 Modularity
+1. Types of programme errors
+2. Test cases
+	1. Normal
+	2. Invalid
+	3. Errorneous
+	4. Boundary
+3. Data validation
+	1. Range
+	2. Length
+	3. Format
+	4. Data type
+4. Programme Design
+	1. Modular design
+	2. Top-down approach
+5. Use of meaningful variable names
+
+
+#### 1.4 Programming
+1. I/O operations
+2. Serial / sequential text files
+	1. Opening / closing files
+	2. Reading / writing files
+	3. Finding locations: seek(), tell()
+3. Classes and objects
+4. Encapsulation (not allowing for access to class data from external methods and functions)
+5. Inheritance: calling super().__init__()
+6. Polymorphism
 
 
 
 ### Module 2 Interface and Interactions
 
 
-#### 2. 1 Interacting with Computers (User Interface)
+#### 2.1 Interacting with Computers (User Interface)
 1. Types of user interfaces
     1. Command line
     2. Menu
