@@ -30,6 +30,11 @@
 		2. Sort: iterative / recursive
 		3. Search: iterative / recursive
 		4. Traversal: recursive (pre-order, in-order, post-order)
+2. Abstraction
+	1. Data representation
+		1. ASCII code: ord(), chr()
+		2. Unicode
+		2. Binary, octal, hexadecimal
 
 ### Module 2 Interface and Interactions
 
