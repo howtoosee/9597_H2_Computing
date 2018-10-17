@@ -12,7 +12,11 @@
 3. Weighting: 65%
 4. Number of questions: 6
 
+
+
 ## Content
+
+
 
 ### Module 1 Algorithms and Design
 1. Fudamental Algorithms
@@ -67,6 +71,8 @@
 	4. Encapsulation (not allowing for access to class data from external methods and functions)
 	5. Inheritance: calling super().__init__()
 	6. Polymorphism
+
+
 
 ### Module 2 Interface and Interactions
 
