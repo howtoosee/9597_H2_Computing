@@ -35,12 +35,38 @@
 		1. ASCII code: ord(), chr()
 		2. Unicode
 		2. Binary, octal, hexadecimal
-	1. Data structures and associated operations (insert, delete, search)
+	2. Data structures and associated operations (insert, delete, search)
 		1. Array: append, pop
 		2. Dictionary: mapping values
 		3. Stack: push, pop
 		4. Queue: enqueue, dequeue
 		5. List: add, delete
+3. Modularity
+	1. Types of programme errors
+	2. Test cases
+		1. Normal
+		2. Invalid
+		3. Errorneous
+		4. Boundary
+	3. Data validation
+		1. Range
+		2. Length
+		3. Format
+		4. Data type
+	4. Programme Design
+		1. Modular design
+		2. Top-down approach
+	5. Use of meaningful variable names
+4. Programming
+	1. I/O operations
+	2. Serial / sequential text files
+		1. Opening / closing files
+		2. Reading / writing files
+		3. Finding locations: seek(), tell()
+	3. Classes and objects
+	4. Encapsulation (not allowing for access to class data from external methods and functions)
+	5. Inheritance: calling super().__init__()
+	6. Polymorphism
 
 ### Module 2 Interface and Interactions
 
