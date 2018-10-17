@@ -12,12 +12,15 @@
 3. Weighting: 65%
 4. Number of questions: 6
 
+## Content
+
+### Module 1
 
 
-## Module 2 Interface and Interactions
+### Module 2 Interface and Interactions
 
 
-### 2.1 Interacting with Computers (User Interface)
+#### 2.1 Interacting with Computers (User Interface)
 1. Types of user interfaces
     1. Command line
     2. Menu
@@ -42,7 +45,7 @@
     3. Economic issues
 
 
-### 2.2 Interfacing Computers (Networking)
+#### 2.2 Interfacing Computers (Networking)
 1. Types of networks and examples of them
     1. Local area network
     2. Wide area network
@@ -78,7 +81,7 @@
     2. Checksums
 
 
-### 2.3 Interacting with data (Relational database)
+#### 2.3 Interacting with data (Relational database)
 1. Attributes of database
     1. Tables
     2. Records
@@ -90,7 +93,7 @@
 
 
 
-## Module 3: Systems Engineering
+### Module 3: Systems Engineering
 
 
 ### 3.1 System Development Cycle (SDC)
