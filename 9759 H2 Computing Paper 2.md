@@ -14,7 +14,7 @@
 
 ## Content
 
-### Module 1
+### Module 1 Algorithms and Design
 
 
 ### Module 2 Interface and Interactions
