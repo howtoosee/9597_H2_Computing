@@ -43,7 +43,6 @@ __Table of Contents__
 ## Contents
 
 
-
 ### Module 1: Algorithms and Design
 
 
