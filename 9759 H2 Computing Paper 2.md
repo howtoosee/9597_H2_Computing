@@ -15,7 +15,11 @@
 ## Content
 
 ### Module 1 Algorithms and Design
-
+1.  Fudamental Algorithms
+	1. Search
+		1. Linear / sequential
+		2. Binary search (iterative / recursive)
+		3. Hash table search
 
 ### Module 2 Interface and Interactions
 
