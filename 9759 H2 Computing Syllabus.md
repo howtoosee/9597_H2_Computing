@@ -1,6 +1,6 @@
 # 9759 H2 Computing Paper
 
-[TOC]
+
 
 
 ## Paper 1 Format
