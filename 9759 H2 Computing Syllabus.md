@@ -21,7 +21,7 @@
 
 
 
-### Module 1 Algorithms and Design
+### Module 1: Algorithms and Design
 
 
 #### 1.1 Fudamental Algorithms
@@ -85,7 +85,7 @@
 
 
 
-### Module 2 Interface and Interactions
+### Module 2: Interface and Interactions
 
 
 #### 2.1 Interacting with Computers (User Interface)
@@ -113,7 +113,7 @@
     3. Economic issues
 
 
-#### 2. 2 Interfacing Computers (Networking)
+#### 2.2 Interfacing Computers (Networking)
 1. Types of networks and examples of them
     1. Local area network
     2. Wide area network
@@ -149,7 +149,7 @@
     2. Checksums
 
 
-#### 2. 3 Interacting with data (Relational database)
+#### 2.3 Interacting with data (Relational database)
 1. Attributes of database
     1. Tables
     2. Records
@@ -164,7 +164,7 @@
 ### Module 3: Systems Engineering
 
 
-### 3. 1 System Development Cycle (SDC)
+### 3.1 System Development Cycle (SDC)
 1. Data and processes in software system / applications
     1. Business systems
     2. Information systems
@@ -187,7 +187,7 @@
     6. Beta testing
 
 
-### 3. 2 Project Management Techniques
+### 3.2 Project Management Techniques
 1. Purpose of project proposal
 2. Project management
     1. PERT chart and critial path analysis
@@ -195,7 +195,7 @@
 3. Importance of team work and roles of team members on a project
 
 
-### 3. 3 Network Applications
+### 3.3 Network Applications
 1. Methods for creating network app
     1. Client side scripting
     2. Server side scripting
